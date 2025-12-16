@@ -38,12 +38,12 @@
 
 Ниже — зафиксированные значения из ноутбука:
 
-| Подход | Public Score | Private Score | 
-|---|---:|---:|---|
-| **LightAutoML (baseline)** | **0.92477** | **0.92584** | 
+| Подход | Public Score | Private Score |
+|---|---:|---:|
+| **LightAutoML (baseline)** | **0.92477** | **0.92584** |
 | CatBoost (GPU) + Optuna | 0.92087 | 0.92156 |
-| CatBoost + LightGBM (stacking) | 0.91958 | 0.92027 | 
-| LightGBM (final) | 0.92076 | 0.92156 | 
+| CatBoost + LightGBM (stacking) | 0.91958 | 0.92027 |
+| LightGBM (final) | 0.92076 | 0.92156 |
 
 **Итог**: AutoML baseline оказался сильнее моих ручных решений на этом датасете
 
