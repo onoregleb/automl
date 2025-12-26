@@ -7,16 +7,6 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
 
-  # Форматирование/линтинг Python файлов
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.8.4
-    hooks:
-      - id: ruff
-        args: [--fix]
-        files: \.py$
-      - id: ruff-format
-        files: \.py$
-
   - repo: https://github.com/psf/black
     rev: 24.10.0
     hooks:
@@ -29,11 +19,4 @@ repos:
     hooks:
       - id: nbqa-black
       - id: nbqa-ruff
-        # В ноутбуках импорты по ячейкам — это нормально, поэтому E402 не блокируем.
         args: [--fix, --ignore=E402]
-
-  # (Опционально) чистить outputs/metadata ноутбуков перед коммитом
-  - repo: https://github.com/kynan/nbstripout
-    rev: 0.7.1
-    hooks:
-      - id: nbstripout
