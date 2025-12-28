@@ -41,9 +41,9 @@
 | Подход | Public Score | Private Score |
 |---|---:|---:|
 | **LightAutoML (baseline)** | **0.92477** | **0.92584** |
-| CatBoost (GPU) + Optuna | 0.92087 | 0.92156 |
+| CatBoost + Optuna | 0.92087 | 0.92156 |
 | CatBoost + LightGBM (stacking) | 0.92104 | 0.92184 |
-| LightGBM (final) | 0.91943 | 0.91998 |
+| LightGBM | 0.91943 | 0.91998 |
 
 **Итог**: AutoML baseline оказался сильнее моих ручных решений на этом датасете
 
