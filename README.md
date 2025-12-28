@@ -42,7 +42,7 @@
 |---|---:|---:|
 | **LightAutoML (baseline)** | **0.92477** | **0.92584** |
 | CatBoost + Optuna | 0.92087 | 0.92156 |
-| CatBoost + LightGBM (stacking) | 0.92104 | 0.92184 |
+| CatBoost + LightGBM (stacking) | 0.92163 | 0.92079 |
 | LightGBM | 0.91943 | 0.91998 |
 
 **Итог**: AutoML baseline оказался сильнее моих ручных решений на этом датасете
