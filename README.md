@@ -45,6 +45,8 @@
 | CatBoost + LightGBM (stacking) | 0.92104 | 0.92184 |
 | LightGBM | 0.91943 | 0.91998 |
 
+![Результат на Kaggle](refs\stacking_results.png "Результат на Kaggle для stacking classifier")
+
 **Итог**: AutoML baseline оказался сильнее моих ручных решений на этом датасете
 
 ### Как воспроизвести
