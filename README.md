@@ -47,7 +47,7 @@
 
 **Итог**: AutoML baseline оказался сильнее моих ручных решений на этом датасете
 
-![Результаты stacking](refs/final_metric_stacking.png)
+![Результаты stacking](refs/metric_stacking.png)
 
 ### Как воспроизвести
 
