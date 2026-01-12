@@ -28,11 +28,11 @@
   - групповые статистики по `employment_status`, `grade_subgrade`, `loan_purpose`, `education_level`
   - кросс-фичи (комбинации категорий)
   - пороговые флаги (high/low credit, income, debt, loan, interest)
-- **Модели (минимум 3 подхода)**:
-  - **LightAutoML** как AutoML baseline
+- **Модели**:
+  - **LightAutoML** - 2 конфигурации
   - **CatBoost (GPU) + Optuna** (подбор гиперпараметров + CV)
-  - **Стэкинг CatBoost + LightGBM** (двухуровневый стек)
-  - **LightGBM** (label encoding категорий + 5-fold CV)
+  - **Стэкинг CatBoost + LightGBM**
+  - **LightGBM** (label encoding категорий + 3-fold CV)
 
 ### Результаты (leaderboard)
 
